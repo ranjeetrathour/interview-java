@@ -8,6 +8,12 @@ public class MonitorClass {
         insertDataFirst.insertData(30);
 
         PrintLinkListData printLinkListData = new PrintLinkListData();
+        System.out.println("print ll ");
+        printLinkListData.printAllNodeData();
+
+        ReverseLinkList list = new ReverseLinkList();
+        list.reverseLinkList();
+        System.out.println("print ll after reverse");
         printLinkListData.printAllNodeData();
     }
 }
