@@ -3,7 +3,6 @@ package org.example.string;
 public class RemoveConsecutiveCharacters {
     public static void main(String[] args) {
         String s = "aaabcaddd";
-
         StringBuilder sb = new StringBuilder();
         sb.append(s.charAt(0));
         int counter=1;
