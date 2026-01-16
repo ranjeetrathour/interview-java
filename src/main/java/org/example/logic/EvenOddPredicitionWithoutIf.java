@@ -2,6 +2,7 @@ package org.example.logic;
 
 public class EvenOddPredicitionWithoutIf {
     public static void main(String[] args) {
+
         System.out.println(isEvenOrOdd(8));
     }
 
