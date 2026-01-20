@@ -1,0 +1,77 @@
+1. FAANG-ONLY Two Pointer Questions
+
+Two Sum II (LC-167) — Google, Amazon, Meta
+Squares of a Sorted Array (LC-977) — Google, Amazon, Meta
+Container With Most Water (LC-11) — Google, Meta, Amazon
+Valid Palindrome (LC-125) — Meta, Amazon
+Move Zeroes (LC-283) — Amazon
+Sort Colors (LC-75) — Google, Amazon
+3Sum (LC-15) — Google, Meta, Amazon
+3Sum Closest (LC-16) — Amazon
+4Sum (LC-18) — Google
+Longest Palindromic Substring (LC-5) — Google
+Valid Palindrome II (LC-680) — Meta
+Backspace String Compare (LC-844) — Google, Amazon
+Longest Substring Without Repeating Characters (LC-3) — Google, Amazon
+Minimum Window Substring (LC-76) — Google
+Detect Cycle in Linked List (LC-141) — Google, Amazon
+Remove Nth Node from End (LC-19) — Amazon
+Intersection of Two Linked Lists (LC-160) — Meta
+Trapping Rain Water (LC-42) — Google, Amazon
+
+✅ 2. Beginner → Advanced Order (Two Pointer Roadmap)
+
+Reverse String (LC-344) — Microsoft, Amazon
+Valid Palindrome (LC-125) — Meta, Amazon
+Move Zeroes (LC-283) — Amazon
+Remove Element (LC-27) — Amazon
+Remove Duplicates from Sorted Array (LC-26) — Amazon
+
+Two Sum II (LC-167) — Google, Amazon
+Squares of a Sorted Array (LC-977) — Google, Amazon
+Sort Colors (LC-75) — Google, Amazon
+Container With Most Water (LC-11) — Google, Meta
+
+3Sum (LC-15) — Google, Meta
+3Sum Closest (LC-16) — Amazon
+4Sum (LC-18) — Google
+
+Longest Substring Without Repeating Characters (LC-3) — Google
+Minimum Window Substring (LC-76) — Google
+
+Detect Cycle in Linked List (LC-141) — Amazon
+Find Middle of Linked List (LC-876) — Microsoft
+Remove Nth Node from End (LC-19) — Amazon
+
+Trapping Rain Water (LC-42) — Google
+
+✅ 3. Master Copy List (Question + LC Number + Company)
+
+Two Sum II — LC-167 — Google, Amazon
+Squares of a Sorted Array — LC-977 — Google, Amazon
+Reverse String — LC-344 — Microsoft, Amazon
+Container With Most Water — LC-11 — Google, Meta
+Valid Palindrome — LC-125 — Meta, Amazon
+
+Move Zeroes — LC-283 — Amazon
+Sort Colors — LC-75 — Google, Amazon
+Remove Duplicates from Sorted Array — LC-26 — Amazon
+Remove Element — LC-27 — Amazon
+
+3Sum — LC-15 — Google, Meta
+3Sum Closest — LC-16 — Amazon
+4Sum — LC-18 — Google
+
+Longest Palindromic Substring — LC-5 — Google
+Valid Palindrome II — LC-680 — Meta
+Backspace String Compare — LC-844 — Google
+
+Longest Substring Without Repeating Characters — LC-3 — Google
+Minimum Window Substring — LC-76 — Google
+
+Detect Cycle in Linked List — LC-141 — Amazon
+Find Middle of Linked List — LC-876 — Microsoft
+Remove Nth Node from End — LC-19 — Amazon
+Intersection of Two Linked Lists — LC-160 — Meta
+
+Trapping Rain Water — LC-42 — Google
