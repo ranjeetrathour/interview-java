@@ -2,8 +2,8 @@ package org.example.slidingwindow;
 
 public class MaxSumArry {
     public static void main(String[] args) {
-        int arr[] = {2, 1, 5, 1, 3, 2};
-        int k=3;
+        int arr[] = {1,4,2,10,23,3,2,0,20};
+        int k=4;
         System.out.println("max sum of sub array {} "+ maxSumOfArray(arr,k));
     }
 
