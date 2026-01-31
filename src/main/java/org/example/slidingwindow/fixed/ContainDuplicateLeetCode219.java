@@ -1,4 +1,4 @@
-package org.example.slidingwindow;
+package org.example.slidingwindow.fixed;
 
 public class ContainDuplicateLeetCode219 {
     public static void main(String[] args) {

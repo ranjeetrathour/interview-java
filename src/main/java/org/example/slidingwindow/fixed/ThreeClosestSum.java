@@ -1,4 +1,4 @@
-package org.example.slidingwindow;
+package org.example.slidingwindow.fixed;
 
 /**
  * leetcode 16

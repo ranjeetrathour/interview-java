@@ -4,10 +4,10 @@ import org.example.Main;
 
 public class SmallestSubArray {
     public static void main(String[] args) {
-        int[] arr = {2,3,1,2,4,3};
+        int[] arr = {1,1,1,1,1,1,1,1};
         int sum=0;
         int j=0;
-        int target=7;
+        int target=11;
         int min = Integer.MAX_VALUE;
         int i=0;
 
