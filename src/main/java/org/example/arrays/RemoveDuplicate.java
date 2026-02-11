@@ -1,28 +1,33 @@
 package org.example.arrays;
 
 import java.util.Arrays;
+//import java.util.numsays;
 
 /**
  * leetcode 26
  */
 public class RemoveDuplicate {
     public static void main(String[] args) {
-        int[] arr= {1,1,2};
-
-
-        System.out.println(removeDuplicateCount(arr));
-        System.out.println(Arrays.toString(arr));
+        int[] nums= {1,1,2};
+        int count=1;
+        for (int i=1; i<nums.length; i++){
+            if (nums[count-1]!=nums[i]){
+                nums[count++]=nums[i];
+            }
+        }
+//        System.out.println(removeDuplicateCount(nums));
+        System.out.println(Arrays.toString(nums));
     }
 
-    static int removeDuplicateCount(int[] arr) {
-        if (arr.length == 0) return 0;
+    static int removeDuplicateCount(int[] nums) {
+        if (nums.length == 0) return 0;
 
         int j = 0; // slow pointer
 
-        for (int i = 1; i < arr.length; i++) {
-            if (arr[i] != arr[j]) {
+        for (int i = 1; i < nums.length; i++) {
+            if (nums[i] != nums[j]) {
                 j++;
-                arr[j] = arr[i];
+                nums[j] = nums[i];
             }
         }
         return j + 1;

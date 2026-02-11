@@ -1,7 +1,7 @@
 package org.example.arrays;
 
 /**
- *
+ *leetcode 485
  */
 public class ConsecutiveOnes {
     public static void main(String[] args) {
