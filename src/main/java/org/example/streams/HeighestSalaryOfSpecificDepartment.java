@@ -25,8 +25,16 @@ public class HeighestSalaryOfSpecificDepartment {
         employees.add(new Employee("Harsh Mehta", "IT", 90000, LocalDateTime.now().minusDays(6)));
         employees.add(new Employee("Komal Jain", "Sales", 47000, LocalDateTime.now().minusDays(2)));
 
-        Employee it = employees.stream().filter(emp -> emp.getDept().equalsIgnoreCase("it")).toList().stream().distinct().max(Comparator.comparingDouble(Employee::getSalary)).get();
-        System.out.println(it);
-
+        /**
+         *
+         */
+        Employee emp= employees.stream()
+                .filter(employee -> employee.getDept().equalsIgnoreCase("it"))
+                .toList() //till here collecting emp who is from it dept
+                .stream()
+                .distinct()
+                .max(Comparator.comparingDouble(Employee::getSalary))
+               .orElse(null); //getting max sal emp after down stream
+        System.out.println(emp);
     }
 }
