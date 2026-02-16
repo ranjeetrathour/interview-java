@@ -32,6 +32,6 @@ public class IntersectionOf2Array {
             }
         }
 
-        System.out.println("Intersection: " + res); // Output: [4, 9]
+        System.out.println("Intersection: " + res);
     }
 }
