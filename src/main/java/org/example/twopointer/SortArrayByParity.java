@@ -1,5 +1,8 @@
 package org.example.twopointer;
 
+/**
+ * leetcode 905
+ */
 public class SortArrayByParity {
     public static void main(String[] args) {
         int nums[] = {3,1,2,4};
