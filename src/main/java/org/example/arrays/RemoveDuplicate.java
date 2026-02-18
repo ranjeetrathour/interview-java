@@ -1,7 +1,6 @@
 package org.example.arrays;
 
 import java.util.Arrays;
-//import java.util.numsays;
 
 /**
  * leetcode 26
