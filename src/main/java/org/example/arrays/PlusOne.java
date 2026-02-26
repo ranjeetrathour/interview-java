@@ -8,6 +8,7 @@ import java.util.Arrays;
 public class PlusOne {
     public static void main(String[] args) {
         int[] digits = {3, 6, 1, 0};
+
         for (int i = digits.length - 1; i >= 0; i--) {
             digits[i]++;
             if (digits[i] == 10) {
