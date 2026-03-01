@@ -1,7 +1,7 @@
 package org.example.multithreading;
 
 class Demo extends Thread {
-    boolean isVisible = true;
+   boolean isVisible = true;
     @Override
     public void run() {
         while (isVisible){
