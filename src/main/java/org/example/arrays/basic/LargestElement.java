@@ -1,6 +1,5 @@
 package org.example.arrays.basic;
 
-import java.util.Arrays;
 import java.util.stream.IntStream;
 
 public class LargestElement {
