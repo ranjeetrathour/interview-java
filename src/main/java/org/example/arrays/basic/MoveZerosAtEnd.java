@@ -8,14 +8,13 @@ public class MoveZerosAtEnd {
 
         int count=0;
 
-        for (int i = 0; i < arr.length ; i++) {
-            if (arr[i]!=0){
-                int temp=arr[i];
-                arr[i]=arr[count];
-                arr[count]=temp;
-                count++;
-            }
-        }
+
+
+        int[] array = Arrays.stream(arr)
+                .filter(value -> value != 0).toArray();
+
+        arr = Arrays.copyOf(array,arr.length);
+
 
         System.out.println(Arrays.toString(arr));
     }
@@ -29,5 +28,16 @@ public class MoveZerosAtEnd {
  *         }
  *         for (int i=count;i< arr.length; i++){
  *             arr[count++]=0;
+ *         }
+ */
+
+/** with one loop
+ * for (int i = 0; i < arr.length ; i++) {
+ *             if (arr[i]!=0){
+ *                 int temp=arr[i];
+ *                 arr[i]=arr[count];
+ *                 arr[count]=temp;
+ *                 count++;
+ *             }
  *         }
  */
