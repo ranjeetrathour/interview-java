@@ -1,6 +1,7 @@
 package org.example.arrays.basic;
 
 import java.util.Arrays;
+import java.util.stream.IntStream;
 
 public class UnionOfTwoSortedArray {
     public static void main(String[] args) {
@@ -40,6 +41,9 @@ public class UnionOfTwoSortedArray {
             j++;
         }
 
-        System.out.println(Arrays.toString(result));
+        int[] array = IntStream.concat(Arrays.stream(arr1), Arrays.stream(arr2))
+                .sorted().toArray();
+
+        System.out.println(Arrays.toString(array));
     }
 }
