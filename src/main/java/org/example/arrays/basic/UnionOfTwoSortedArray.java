@@ -42,7 +42,7 @@ public class UnionOfTwoSortedArray {
         }
 
         int[] array = IntStream.concat(Arrays.stream(arr1), Arrays.stream(arr2))
-                .sorted().toArray();
+                .distinct().sorted().toArray();
 
         System.out.println(Arrays.toString(array));
     }
