@@ -8,7 +8,6 @@ import java.util.List;
 public class HeighestSalaryOfSpecificDepartment {
     public static void main(String[] args) {
         List<Employee> employees = new ArrayList<>();
-
         employees.add(new Employee("Amit Kumar", "HR", 55000, LocalDateTime.now().minusYears(10)));
         employees.add(new Employee("Rohit Sharma", "IT", 75000, LocalDateTime.now().minusDays(5)));
         employees.add(new Employee("Neha Verma", "Finance", 68000, LocalDateTime.now().minusYears(3)));
