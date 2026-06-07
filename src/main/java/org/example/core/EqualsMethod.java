@@ -20,7 +20,7 @@ public class EqualsMethod {
         Student student2 = new Student("shyam",1);
         Student student3 = new Student("ram",1);
 
-        System.out.println(student1.equals(student3)); //obj class equals method called here
+        System.out.println(student1.equals(student3));
 
         StringBuilder stringBuilder = new StringBuilder("ram");
         StringBuilder stringBuilder1 = new StringBuilder("ram");
